@@ -32,6 +32,11 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<leader>F"] = {
+      desc = "Flutter Tools",
+      function()
+        require('telescope').extensions.flutter.commands() end
+    }
   },
   t = {
     -- setting a mapping to false will disable it
