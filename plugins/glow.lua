@@ -2,7 +2,12 @@ return {
   "ellisonleao/glow.nvim",
   enable = true,
   lazy = false,
+  pin = true,
   config = true,
   cmd = "Glow",
-  opts = {}
+  opts = {
+    require('glow').setup({
+      border = "rounded"
+    })
+  }
 }
