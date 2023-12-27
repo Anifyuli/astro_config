@@ -1,6 +1,7 @@
 return {
   "ellisonleao/glow.nvim",
-  enable = true,
+  enabled = true,
+  priority = 1000,
   lazy = false,
   pin = true,
   config = true,
