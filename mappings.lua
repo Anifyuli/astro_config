@@ -36,6 +36,7 @@ return {
       desc = "Flutter Tools",
       function() require("telescope").extensions.flutter.commands() end,
     },
+    ["dD"] = { '"_d', desc = "Permanent deletion (V mode)" },
   },
   t = {
     -- setting a mapping to false will disable it
