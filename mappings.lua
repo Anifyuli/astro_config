@@ -36,8 +36,9 @@ return {
       desc = "Flutter Tools",
       function() require("telescope").extensions.flutter.commands() end,
     },
-  t = {
-    -- setting a mapping to false will disable it
-    -- ["<esc>"] = false,
+    t = {
+      -- setting a mapping to false will disable it
+      -- ["<esc>"] = false,
+    },
   },
 }
