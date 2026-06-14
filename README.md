@@ -1,3 +1,7 @@
+# Announcement
+
+This repo archived cause no longer maintained due to inactivity. I use Neovim again, but more controlled via Chezmoi in [here](https://github.com/Anifyuli/dotfiles)
+
 # AstroNvim User Configuration Example
 
 A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
